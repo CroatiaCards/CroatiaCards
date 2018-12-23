@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+}
+
+header {
+  background-color: #aaa;
+  color: white;
+  height: 200px;
+  position: relative
+}
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  bottom: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6)
+}
+
+.navigation {
+  width: 15%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: 0;
+  border-color: white;
+}
+
+.navigation:hover {
+  background-color: rgba(40, 40, 40, 0.6);
+  transition: 0.2s;
+}
+
+#footerp {
+  text-align: center;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+}
+
+footer {
+  background-color: rgba(40, 40, 40, 1);
+  padding: 1px;
+  padding-right: 15px;
+  text-align: right;
+  color: white;
+  padding-top: 15px;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: -0.6;
+  font-kerning: auto;
+  font-size: 18px;
+}
