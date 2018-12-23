@@ -32,6 +32,11 @@ header {
   transition: 0.2s;
 }
 
+.content {
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
 #footerp {
   text-align: center;
   font-style: italic;
